@@ -1,0 +1,56 @@
+{
+  "analysis_id": "115759b2c2094711347b",
+  "coordinates": {
+    "ra": 321.194433,
+    "dec": 24.18167
+  },
+  "frame_count": 4,
+  "image_size": 256,
+  "detector": 1,
+  "frames": [
+    {
+      "index": 0,
+      "timestamp": "2026-05-14T12:27:32.079",
+      "detector": 1,
+      "mean_brightness": 0.534764,
+      "median_brightness": 0.246556,
+      "unit": "MJy / sr"
+    },
+    {
+      "index": 1,
+      "timestamp": "2026-05-14T12:29:41.008",
+      "detector": 1,
+      "mean_brightness": 0.52347,
+      "median_brightness": 0.25014,
+      "unit": "MJy / sr"
+    },
+    {
+      "index": 2,
+      "timestamp": "2026-05-14T12:31:49.940",
+      "detector": 1,
+      "mean_brightness": 0.532283,
+      "median_brightness": 0.252298,
+      "unit": "MJy / sr"
+    },
+    {
+      "index": 3,
+      "timestamp": "2026-05-14T12:33:58.870",
+      "detector": 1,
+      "mean_brightness": 0.527563,
+      "median_brightness": 0.255514,
+      "unit": "MJy / sr"
+    }
+  ],
+  "comparison": {
+    "reference_frame": 0,
+    "compared_frame": 3,
+    "common_pixels": 65516,
+    "candidate_pixels": 2949,
+    "candidate_fraction": 0.045012,
+    "median_difference": 0.009295,
+    "robust_sigma": 0.02792,
+    "threshold_sigma": 5
+  },
+  "summary": "Analyzed 4 real NASA SPHEREx observations of RA 321.194433, Dec 24.181670. All images were resampled onto a shared celestial coordinate grid using FITS WCS. The first and last observations contain 2949 pixels above a robust 5-sigma residual threshold within their common coverage. These are candidate image differences, not confirmed astronomical changes. Instrumental noise, point-spread-function differences, calibration and resampling effects may contribute.",
+  "limitations": "Exploratory WCS-aligned pixel comparison only. No PSF matching, background matching, uncertainty propagation or artifact rejection. Pixel thresholding is not source detection."
+}

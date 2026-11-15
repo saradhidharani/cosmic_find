@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+requests
+numpy
+astropy
+Pillow
+astroquery
+matplotlib
